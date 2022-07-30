@@ -1,0 +1,45 @@
+body {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: 1fr 4fr;
+    height: 100vh;
+}
+
+header {
+    grid-column: 2 / -1;
+}
+
+.header-top,
+.header-bottom {
+    display: flex;
+}
+
+.header-top .user,
+.header-bottom .user {
+    display: flex;
+}
+
+.sidebar {
+    grid-row: 1 / -1;
+}
+
+main {
+    grid-column: 2 / -1;
+
+    display: grid;
+    grid-template-columns: 5fr 2fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.projects {
+    grid-row: 1 / -1;
+}
+
+.projects-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.trending .trend {
+    display: flex;
+}
