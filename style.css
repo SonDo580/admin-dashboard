@@ -71,10 +71,23 @@ header svg {
     margin: 0 20px;
 }
 
+.header-bottom .user-name {
+    margin: 0;
+    font-size: 1.2rem;
+}
+
+.header-bottom .user p {
+    margin-top: 0;
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: .8rem;
+}
+
 .header-bottom img {
     width: 50px;
     height: 50px;
     border-radius: 50%;
+    margin-right: 20px;
 }
 
 
