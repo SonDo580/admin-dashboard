@@ -236,6 +236,11 @@ main h1 {
     padding: 20px 0;
 }
 
+.announce:hover {
+    cursor: pointer;
+    color: blue;
+}
+
 .announce:first-child {
     padding-top: 0;
 }
