@@ -23,7 +23,7 @@ header {
 .sidebar {
     grid-row: 1 / -1;
 
-    background-color: rgb(0, 150, 255);
+    background-color: #0ea5e9;
 }
 
 .sidebar h1 {
