@@ -247,6 +247,7 @@ main h1 {
     padding: 20px;
     background-color: white;
     border-radius: 10px;
+    box-shadow: 0px 0px 4px rgba(0,0,0,0.3); 
 }
 
 .announce {
