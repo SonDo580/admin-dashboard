@@ -202,6 +202,11 @@ main {
     font-size: .8rem;
 }
 
+.projects svg {
+    width: 20px;
+    height: 20px;
+}
+
 .trending .trend {
     display: flex;
 }
