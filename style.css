@@ -265,6 +265,10 @@ main h1 {
     font-size: .8rem;
 }
 
+.trend:hover {
+    cursor: pointer;
+}
+
 .trend:last-child {
     margin-bottom: 0;
 }
