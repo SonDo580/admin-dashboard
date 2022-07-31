@@ -13,12 +13,19 @@ header {
 
     z-index: 100;
     box-shadow: 0px 3px 3px rgba(0,0,0,0.3); 
+    padding: 0 40px;
+}
+
+header svg {
+    width: 20px;
+    height: 20px;
 }
 
 .header-top,
 .header-bottom {
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 
 .header-top .user,
@@ -27,15 +34,41 @@ header {
     align-items: center;
 }
 
-header svg {
-    width: 20px;
-    height: 20px;
+.header-top .search {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.header-top input[type='search'] {
+    flex-grow: 1;
+
+    margin-left: 10px;
+    border-radius: 15px;
+    height: 25px;
+    background-color: #e5e7eb;
+    border: none;
+    padding: 0 10px;
+}
+
+.header-top input[type='search']:focus {
+    outline: none;
+}
+
+.header-top .user {
+    flex-grow: 1;
+    justify-content: flex-end;
+}
+
+.header-top .user-name {
+    font-size: .9rem;
 }
 
 .header-top img {
-    width: 30px;
-    height: 30px;
+    width: 35px;
+    height: 35px;
     border-radius: 50%;
+    margin: 0 20px;
 }
 
 .header-bottom img {
