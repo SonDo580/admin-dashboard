@@ -150,6 +150,7 @@ header svg {
     text-decoration: none;
     font-weight: bold;
     font-size: 1.1rem;
+
     display: flex;
     align-items: center;
 }
@@ -170,6 +171,7 @@ main {
     grid-template-rows: 1fr 1fr;
 
     background-color: #f1f5f9;
+    padding: 20px;
 }
 
 .projects {
@@ -179,6 +181,25 @@ main {
 .projects-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    gap: 25px;
+}
+
+.projects .project {
+    background-color: white;
+    border-left: 10px solid orange;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.projects .project .name {
+    margin-top: 0;
+    margin-bottom: 5px;
+    font-size: .9rem;
+}
+
+.projects .project .description {
+    margin-top: 0;
+    font-size: .8rem;
 }
 
 .trending .trend {
