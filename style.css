@@ -6,6 +6,7 @@ body {
     font-family: 'Roboto', sans-serif;;
 }
 
+/* HEADER */
 header {
     grid-column: 2 / -1;
 }
@@ -27,6 +28,20 @@ header svg {
     height: 20px;
 }
 
+.header-top img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.header-bottom img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+
+/* SIDEBAR */
 .sidebar {
     grid-row: 1 / -1;
 
@@ -72,6 +87,8 @@ header svg {
     margin-right: 20px;
 }
 
+
+/* MAIN SECTION */
 main {
     grid-column: 2 / -1;
 
