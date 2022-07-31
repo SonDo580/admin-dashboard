@@ -221,6 +221,10 @@ main h1 {
     margin: 0 10px;
 }
 
+.project svg:hover {
+    cursor: pointer;
+}
+
 .announces-container {
     padding: 20px;
     background-color: white;
