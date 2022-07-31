@@ -71,6 +71,10 @@ header svg {
     margin: 0 20px;
 }
 
+.header-bottom .user {
+    flex: 2;
+}
+
 .header-bottom .user-name {
     margin: 0;
     font-size: 1.2rem;
@@ -88,6 +92,22 @@ header svg {
     height: 50px;
     border-radius: 50%;
     margin-right: 20px;
+}
+
+.header-bottom .buttons {
+    flex: 1;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-bottom button {
+    background-color: #0ea5e9;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    padding: 8px 20px;
+    font-weight: bold;
 }
 
 
