@@ -168,6 +168,10 @@ header svg:hover {
     align-items: center;
 }
 
+.sidebar a:hover {
+    color: yellow
+}
+
 .sidebar a svg {
     width: 20px;
     height: 20px;
