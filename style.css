@@ -21,6 +21,10 @@ header svg {
     height: 20px;
 }
 
+header svg:hover {
+    cursor: pointer;
+}
+
 .header-top,
 .header-bottom {
     display: flex;
@@ -74,6 +78,10 @@ header svg {
     margin: 0 20px;
 }
 
+.header-top img:hover {
+    cursor: pointer;
+}
+
 .header-bottom .user {
     flex: 2;
 }
@@ -111,6 +119,11 @@ header svg {
     border-radius: 15px;
     padding: 8px 20px;
     font-weight: bold;
+}
+
+.header-bottom button:hover {
+    cursor: pointer;
+    background-color: blue;
 }
 
 
@@ -276,6 +289,7 @@ main h1 {
 
 .trend:hover {
     cursor: pointer;
+    background-color: lightblue;
 }
 
 .trend:last-child {
