@@ -26,6 +26,8 @@ header svg {
     display: flex;
     align-items: center;
     justify-content: space-between;
+
+    padding: 15px 0;
 }
 
 .header-top .user,
@@ -62,6 +64,7 @@ header svg {
 
 .header-top .user-name {
     font-size: .9rem;
+    margin: 0;
 }
 
 .header-top img {
