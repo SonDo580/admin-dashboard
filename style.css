@@ -221,6 +221,37 @@ main h1 {
     margin: 0 10px;
 }
 
+.announces-container {
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.announce {
+    border-bottom: 1px solid gray;
+    padding: 20px 0;
+}
+
+.announce:first-child {
+    padding-top: 0;
+}
+
+.announce:last-child {
+    border: none;
+    padding-bottom: 0;
+}
+
+.announce .brief {
+    margin-top: 0;
+    margin-bottom: 5px;
+    font-size: .9rem;
+}
+
+.announce .details {
+    margin: 0;
+    font-size: .8rem;
+}
+
 .trending .trend {
     display: flex;
 }
