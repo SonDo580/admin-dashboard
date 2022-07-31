@@ -252,6 +252,24 @@ main h1 {
     font-size: .8rem;
 }
 
-.trending .trend {
+.trends-container {
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.trend {
     display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    font-size: .8rem;
+}
+
+.trend .user {
+    margin: 0;
+}
+
+.trend .project {
+    margin: 0;
+    color: darkolivegreen;
 }
